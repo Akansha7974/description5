@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav h5{
+    font-size: 18px;
+}
+nav .logo i{
+    font-size: 19px;
+    padding-left: 15px;
+}
+.img{
+    height: 60%;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://bendexplored.com/wp-content/uploads/2018/01/Thump-Coffee-Shop-Bend-OR.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img h2{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.img p{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.img button{
+    display: block;
+    margin: auto;
+    padding: 17px 30px;
+    background-color: #ba955d;
+    border: none;
+    font-weight: 600;
+}
+h3{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    height: 150px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+.card2{
+    height: 150px;
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+}
+.card img{
+    height: 110px;
+    width: 130px;
+    margin: 20px;
+}
+.card h4{
+    padding: 30px;
+}
+.card p{
+    padding-top:10px ;
+}
